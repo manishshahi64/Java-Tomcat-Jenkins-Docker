@@ -1,7 +1,7 @@
 FROM tomcat:9.0.46
 
 
-ADD **/*.war /opt/tomcat/apache-tomcat-9.0.46/webapps
+ADD **/*.war /usr/local/tomcat/webapps
 
 EXPOSE 8080
 
